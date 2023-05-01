@@ -54,7 +54,9 @@ export default class Datepickercontrol extends React.Component<IDatepickercontro
         
       /></div>
       <div className={styles.btndiv}>
+       <hr/>
       <PrimaryButton onClick={this.onSaveDateTime} text='Save Date and Time'/></div>
+
       </>
        
     );
